@@ -3,6 +3,14 @@
   <groupId>SampleJavaProject</groupId>
   <artifactId>SampleJavaProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <dependency>
+<groupId>com.atlassian.maven.plugins</groupId>
+<artifactId>maven-jira-plugin</artifactId>
+<version>5.0.18</version>
+</dependency>
+    </dependencies>
   <build>
         <pluginManagement>
             <plugins>
