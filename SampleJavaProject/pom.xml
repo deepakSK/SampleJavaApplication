@@ -25,12 +25,12 @@
             </plugins>
         </pluginManagement>
     </build>
-    <distributionManagement>
+    <!-- <distributionManagement>
         <repository>
             <id>internal</id>
             <url>file://${project.build.directory}/mvn-repo</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement> -->
 <repositories>
     <repository>
         <id>mvn-repo</id>
